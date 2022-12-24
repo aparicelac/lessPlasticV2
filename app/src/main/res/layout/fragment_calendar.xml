@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CalendarFragment">
+
+    <Button
+        android:id="@+id/Boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="-100dp"
+        android:textColor="@color/white"
+        android:text="Selecion" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="167dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:text="Fecha"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-90dp"
+        android:textColor="@color/white"
+        android:text="Mostrar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/white"
+        android:text="Eliminar" />
+
+    <TextView
+        android:id="@+id/plastico"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/txtPlastico"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:labelFor="@+id/plastico"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo" />
+
+    <TextView
+        android:id="@+id/Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:labelFor="@+id/tipo" />
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad" />
+
+    <TextView
+        android:id="@+id/Cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:labelFor="@+id/cantidad" />
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:labelFor="@+id/peso" />
+
+    <TextView
+        android:id="@+id/tamaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamaño" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:labelFor="@+id/tamaño" />
+
+
+</LinearLayout>

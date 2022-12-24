@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/fragment_form1"
+        android:layout_width="344dp"
+        android:layout_height="536dp"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/formWeight"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:text="Peso en gramos:"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="98dp" />
+
+        <EditText
+            android:id="@+id/edtFormWeight"
+            android:layout_width="169dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/gray1"
+            android:ems="10"
+            android:hint="Peso"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/gray1"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <TextView
+            android:id="@+id/awardsUsurnameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="255dp" />
+
+        <Spinner
+            android:id="@+id/formSpinner"
+            android:layout_width="113dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:entries="@array/cantidad"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFormRegistrar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:text="Registrar"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFormCancelar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_round_button"
+            android:text="Cancelar"
+            android:textColor="@color/gray1"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="493dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,172 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBag"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bags"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <ImageButton
+            android:id="@+id/btnBottle"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/ic_bottles"
+            tools:layout_editor_absoluteX="300dp"
+            tools:layout_editor_absoluteY="100dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Bolsas"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgBag"
+            tools:layout_editor_absoluteX="122dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Botellas"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgBootle"
+            tools:layout_editor_absoluteX="329dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/btnTechno"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/ic_techno"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="350dp" />
+
+        <ImageButton
+            android:id="@+id/btnWrap"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/ic_wrap"
+            tools:layout_editor_absoluteX="300dp"
+            tools:layout_editor_absoluteY="350dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2text"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tareasTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Tecnopor"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgDisposable"
+            tools:layout_editor_absoluteX="115dp" />
+
+        <TextView
+            android:id="@+id/perfilTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Empaques"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgPack"
+            tools:layout_editor_absoluteX="325dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPVC"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/ic_pvc"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="600dp" />
+
+        <ImageButton
+            android:id="@+id/btnContainers"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/ic_containers"
+            tools:layout_editor_absoluteX="300dp"
+            tools:layout_editor_absoluteY="600dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3text"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="PVC"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgPVC"
+            tools:layout_editor_absoluteX="345dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainBlue"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Envases"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgHigh"
+            tools:layout_editor_absoluteX="122dp" />
+    </TableRow>
+
+
+</TableLayout>

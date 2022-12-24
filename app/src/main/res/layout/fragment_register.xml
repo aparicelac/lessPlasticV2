@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/mainBlue"
+            android:textStyle="bold"
+            android:text="Registro" />
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Correo Electrónico"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <EditText
+            android:id="@+id/edtApellidos"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Apellidos"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <EditText
+            android:id="@+id/edtNombreUsuario"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Nombre de Usuario"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <EditText
+            android:id="@+id/edtConfirmarPassword"
+            android:layout_width="312dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="Confirmar Contraseña"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/gray1"
+            android:textColorHint="@color/gray1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:text="Registrar"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
